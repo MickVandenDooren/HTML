@@ -1,0 +1,78 @@
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0px; /* From top */
+  left: 0;
+  background-color: beige; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 50px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #5b3c1e; 
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #000; /*black*/
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  width: 600px; /* As in assignment (800 total -200 sidenav) */
+}
+
+.box {
+  border: solid 1px beige;
+  padding:5px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+body {
+  background-image: linear-gradient(to right, #5b3c1e, darkred, darkred, darkred, #5b3c1e);
+}
+
+ol {
+ color: #FbFcFe;
+}
+
+table {
+   border: solid 1px beige;
+   padding: 1em;
+   background-color: beige;
+   opacity: 0.5;
+   width: 100%; 
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+h1 {
+  color: beige;
+  font-size: 65px;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+quote {
+  color: beige;
+  font-style: italic;
+  font-size: 20px;
+} 
+
